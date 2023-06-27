@@ -1,0 +1,28 @@
+.navbar {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px 50px;
+}
+
+.navbar a {
+  cursor: pointer;
+}
+
+.menu {
+  margin-left: auto;
+}
+
+.menu a {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 30px 30px;
+  display: inline-block;
+}
+
+.menu a:hover {
+  color: hsl(176, 68%, 64%);
+  cursor: pointer;
+}
