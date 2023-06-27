@@ -3,7 +3,7 @@ import './styles.css';
 
 const MainPage = () => (
   <>
-    <img src="../images/illustration-intro.png" />
+    <img src="/images/illustration-intro.png" />
     <div className="section1">
       <div className="content-started">
         <h1>All your files in one secure location, accessible anywhere.</h1>
@@ -15,7 +15,7 @@ const MainPage = () => (
     </div>
     <div className="features">
       <div className="tile access">
-        <img src="../images/icon-access-anywhere.svg" alt="access icon" />
+        <img src="/images/icon-access-anywhere.svg" alt="access icon" />
         <h3>Access your files, anywhere</h3>
         <p>
           The ability to use a smartphone, tablet, or computer to access your account means your files follow you
@@ -23,7 +23,7 @@ const MainPage = () => (
         </p>
       </div>
       <div>
-        <img src="../images/icon-security.svg" />
+        <img src="/images/icon-security.svg" />
         <h3>Security you can trust</h3>
         <p>
           2-factor authentication and user-controlled encryption are just a couple of the security features we allow to
@@ -31,7 +31,7 @@ const MainPage = () => (
         </p>
       </div>
       <div>
-        <img src="../images/icon-collaboration.svg" />
+        <img src="/images/icon-collaboration.svg" />
         <h3>Real-time collaboration</h3>
         <p>
           Securely share files and folders with friends, family, and colleagues for live collaboration. No email
@@ -39,7 +39,7 @@ const MainPage = () => (
         </p>
       </div>
       <div>
-        <img src="../images/icon-any-file.svg" />
+        <img src="/images/icon-any-file.svg" />
         <h3>Store any type of file</h3>
         <p>
           Whether you are sharing holidays, photos, or work documents, Fylo as you covered, allowing for all file types
@@ -48,7 +48,7 @@ const MainPage = () => (
       </div>
     </div>
     <div className="section3">
-      <img src="../images/illustration-stay-productive.png" alt="people working" />
+      <img src="/images/illustration-stay-productive.png" alt="people working" />
       <div className="sec3text">
         <h1>Stay productive, wherever you are</h1>
         <p>
@@ -60,13 +60,13 @@ const MainPage = () => (
           attachments required.
         </p>
         <a href="#">
-          See how Fylo works <img src="../images/icon-arrow.svg" alt="tiny arrow" />
+          See how Fylo works <img src="/images/icon-arrow.svg" alt="tiny arrow" />
         </a>
       </div>
     </div>
     <div className="section4">
       <div className="quotes">
-        <img id="quotation" src="../images/bg-quotes.png" alt="quotation mark" />
+        <img id="quotation" src="/images/bg-quotes.png" alt="quotation mark" />
       </div>
       <div className="quote-cards">
         <div className="card">
@@ -74,7 +74,7 @@ const MainPage = () => (
             Fylo has improved our team productivity by an order of magnitude. Since making the switch, our team has
             become a well-oiled collaboration machine.
           </p>
-          <img className="profile-pic" src="../images/profile-1.jpg" alt="profile pic" />
+          <img className="profile-pic" src="/images/profile-1.jpg" alt="profile pic" />
           <h5>Satish Patel</h5>
           <h6>Founder & CEO, Huddle</h6>
         </div>
@@ -83,7 +83,7 @@ const MainPage = () => (
             Fylo has improved our team productivity by an order of magnitude. Since making the switch, our team has
             become a well-oiled collaboration machine.
           </p>
-          <img className="profile-pic" src="../images/profile-2.jpg" alt="profile pic" />
+          <img className="profile-pic" src="/images/profile-2.jpg" alt="profile pic" />
           <h5>Bruce McKenzie</h5>
           <h6>Founder & CEO, Huddle</h6>
         </div>
@@ -93,7 +93,7 @@ const MainPage = () => (
             become a well-oiled collaboration machine.
           </p>
 
-          <img className="profile-pic" src="../images/profile-3.jpg" alt="profile pic" />
+          <img className="profile-pic" src="/images/profile-3.jpg" alt="profile pic" />
           <h5>Iva Boyd</h5>
           <h6>Founder & CEO, Huddle</h6>
         </div>

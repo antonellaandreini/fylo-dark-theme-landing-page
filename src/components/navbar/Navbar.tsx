@@ -4,7 +4,7 @@ import './styles.css';
 const NavBar = () => (
   <div className="navbar">
     <a href="#">
-      <img src="../../images/logo.svg" className="logo" alt="logo" />
+      <img src="/images/logo.svg" className="logo" alt="logo" />
     </a>
     <div className="menu">
       <a href="#">Features</a>

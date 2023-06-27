@@ -6,9 +6,9 @@ import './styles.css';
 const Footer = () => (
   <div className="footer">
     <div className="left">
-      <img id="logo" src="../../images/logo.svg" alt="logo" />
+      <img id="logo" src="/images/logo.svg" alt="logo" />
       <div className="left2">
-        <img id="pin" src="../images/icon-location.svg" alt="location pin" />
+        <img id="pin" src="/images/icon-location.svg" alt="location pin" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua
@@ -17,11 +17,11 @@ const Footer = () => (
     </div>
     <div className="contact">
       <div>
-        <img src="../images/icon-phone.svg" alt="phone" />
+        <img src="/images/icon-phone.svg" alt="phone" />
         <p>+1-543-123-4567</p>
       </div>
       <div>
-        <img src="../images/icon-email.svg" alt="email" />
+        <img src="/images/icon-email.svg" alt="email" />
         <p>example@fylo.com</p>
       </div>
     </div>
