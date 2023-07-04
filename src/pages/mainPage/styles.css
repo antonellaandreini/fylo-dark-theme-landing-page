@@ -12,6 +12,10 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  background-image: url('https://raw.githubusercontent.com/hammercait/fylo-dark-theme-landing-page/658fd0afb4462e6a7e94996ab981bb7d5b336997/images/bg-curvy-desktop.svg');
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 h1 {
@@ -26,35 +30,12 @@ h2 {
 }
 
 .section1 {
-  margin-top: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
-  padding-top: 350px;
-  background-image: url('https://raw.githubusercontent.com/hammercait/fylo-dark-theme-landing-page/658fd0afb4462e6a7e94996ab981bb7d5b336997/images/bg-curvy-desktop.svg');
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.content-started {
-  position: absolute;
-  top: 50rem;
-}
-
-.button-get-started {
-  width: 300px;
-  height: 60px;
-  border-radius: 50px;
-  border: none;
-  background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.25em;
-  margin-top: 20px;
-  cursor: pointer;
 }
 
 .features {
@@ -218,17 +199,6 @@ h6 {
 }
 
 #submit {
-  width: 150px;
-  height: 30px;
-  border-radius: 50px;
-  border: none;
-  background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 0.75em;
-  margin-top: 20px;
-  cursor: pointer;
   margin-left: 20px;
 }
 

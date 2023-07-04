@@ -47,4 +47,4 @@ const Footer = () => (
     </ul>
   </div>
 );
-export default React.memo(Footer);
+export default Footer;

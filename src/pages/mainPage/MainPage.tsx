@@ -1,27 +1,28 @@
 import React from 'react';
 import './styles.css';
+import Button from '@/components/button/Button';
 
 const MainPage = () => (
-  <>
-    <img src="/images/illustration-intro.png" />
+  <div className="content">
     <div className="section1">
-      <div className="content-started">
-        <h1>All your files in one secure location, accessible anywhere.</h1>
-        <p>Fylo stores all your most important files in one secure location.</p>
-        <p>Access them whenever you need, share and collaborate with</p>
-        <p>friends, family, and co-workers.</p>
-        <button className="button-get-started">Get Started</button>
-      </div>
+      <img src="/images/illustration-intro.png" />
+      <h1>
+        All your files in one secure location,
+        <br />
+        accessible anywhere.
+      </h1>
+      <p>Fylo stores all your most important files in one secure location.</p>
+      <p>Access them whenever you need, share and collaborate with</p>
+      <p>friends, family, and co-workers.</p>
+      <Button type="submit" width="300px" height="60px" fontSize="1.25em" id="button-get-started" text="Get Started" />
     </div>
     <div className="features">
-      <div className="tile access">
-        <img src="/images/icon-access-anywhere.svg" alt="access icon" />
-        <h3>Access your files, anywhere</h3>
-        <p>
-          The ability to use a smartphone, tablet, or computer to access your account means your files follow you
-          everywhere.
-        </p>
-      </div>
+      <img src="/images/icon-access-anywhere.svg" alt="access icon" />
+      <h3>Access your files, anywhere</h3>
+      <p>
+        The ability to use a smartphone, tablet, or computer to access your account means your files follow you
+        everywhere.
+      </p>
       <div>
         <img src="/images/icon-security.svg" />
         <h3>Security you can trust</h3>
@@ -108,11 +109,19 @@ const MainPage = () => (
         </p>
         <form>
           <input type="email" id="email" name="email" placeholder="email@example.com" />
-          <input id="submit" type="submit" value="Get Started For Free" />
+          <Button
+            id="submit"
+            type="submit"
+            width="150px"
+            height="30px"
+            fontSize="0.75em"
+            text="Get Started For Free"
+            style={{ marginLeft: '20px' }}
+          />
         </form>
       </div>
     </div>
-  </>
+  </div>
 );
 
 export default MainPage;
